@@ -30,6 +30,7 @@ var server = http.createServer(function (req, res) {
         }
         res.write(html);
     });
+    res.end();
 });
 server.listen(port, function () {
     console.log("Server running at port " + port + "...");

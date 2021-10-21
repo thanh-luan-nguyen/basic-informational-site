@@ -1,0 +1,26 @@
+{
+    "name": "basic-informational-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thanh-luan-nguyen/basic-informational-site"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thanh-luan-nguyen/basic-informational-site/issues"
+    },
+    "homepage": "",
+    "devDependencies": {
+        "typescript": "^4.4.4"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0"
+    }
+}

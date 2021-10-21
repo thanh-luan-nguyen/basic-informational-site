@@ -29,8 +29,8 @@ var server = http.createServer(function (req, res) {
             return;
         }
         res.write(html);
+        res.end();
     });
-    res.end();
 });
 server.listen(port, function () {
     console.log("Server running at port " + port + "...");

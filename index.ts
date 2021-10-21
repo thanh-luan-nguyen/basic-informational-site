@@ -32,8 +32,8 @@ const server = http.createServer((req, res) => {
       return
     }
     res.write(html)
+    res.end()
   })
-  res.end()
 })
 
 server.listen(port, () => {
